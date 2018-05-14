@@ -1,0 +1,71 @@
+.button {   
+  width: 100px;
+  height: 35px;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Shabnam', sans-serif;
+  border:1px solid rgba(127,127,127,1);
+  border-radius: 80px;
+ }
+
+
+.register{
+  position: absolute;
+  right: 75px;
+  top: 50px ;
+  color: rgba(127,127,127,1);
+  background-color: #FFFFFF;
+   
+}
+
+.login{
+  position: absolute;
+  right: 180px;
+  top: 50px ;
+  color: #ffffff;
+  background-color: #666666;   
+}
+
+.register:hover{
+  color:  #3b55ef  ; 
+  border-color:  #3b55ef ;
+  border:1px solid  #3b55ef ;
+}
+
+.login:hover{
+  background-color: #3b55ef ; 
+  border-color:  #3b55ef ;
+  color: #ffffff ;
+}
+
+.brandsBtn:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.joinBtn{
+  width: 100px;
+  height: 35px;
+  background-color: Black;
+  color: White;
+  border-color:Black;
+}
+
+.send{
+  position: absolute;
+  top: 290px;
+  left: 70px;
+  width: 170px;
+  height:30px;
+  border-color: #3b55ef;
+  background-color: #ffffff;
+  font-size: 10px;
+  color: #3b55ef;}
+
+.send:hover{
+  background-color: #3b55ef;
+  color:white;
+}

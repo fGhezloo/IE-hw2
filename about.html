@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="./style/about.css">
+<link rel="stylesheet" type="text/css" href="./style/button.css">
+<link rel="stylesheet" type="text/css" href="./style/general.css">
+<link rel="stylesheet" type="text/css" href="./style/icon.css">
+<link rel="stylesheet" type="text/css" href="./style/flex.css">
+<link rel="stylesheet" type="text/css" href="./style/grid.css">
+<link rel="stylesheet" type="text/css" href="./style/support.css">
+
+<script type="text/javascript" src="./js/support.js"></script>
+
+
+
+</head>
+<body>
+
+
+<div class="grid-container-about">
+
+  <div class="item0-about grid-item-about" style="height: 100px">
+    <div class="top" >
+      <div id="siteName"">Clothster</div>
+      <button type="T" class="button login">ورود</button>
+      <button type="T" class="button register">عضویت</button>
+      <div class="search">
+        <i class="fa fa-search" style="float: left; font-size:20px"></i>
+      </div>
+    </div>
+
+    <div class="flex-container4">
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+      <div class="flex-item4""><a class="a2">برندها</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4"><a class="a2">تخفیف</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4"><a class="a2">ورزشی</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4"><a class="a2">بچه‌گانه</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4"><a class="a2">زنانه</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4"><a class="a2">مردانه</a><hr class="invisible a1"><hr></div>
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+      <div class="flex-item4">&nbsp<hr class="invisible"><hr></div>
+    </div>
+  </div>
+
+  <div class="item1-about grid-item-about" style="height: 110px">
+    <div class="flex-container1">
+      <div class="flex-item1">
+        <i class="fa fa-lock"></i>
+        <p id="privacy">حریم خصوصی</p>
+      </div>
+      <div class="flex-item1">
+        <i class="fa fa-male"></i>
+        <p id="situation">شرایط و ضوابط</p>
+      </div>
+      <div class="flex-item1">
+        <i class="fa fa-angle-left"></i>
+        <p id="return-cond">شرایط بازگرداندن</p>
+      </div>  
+      <div class="flex-item1">
+        <i class="fa fa-question"></i>
+        <p id="faq">سوالات متداول</p>
+      </div>
+      <div class="flex-item1">
+        <i class="fa fa-envelope"></i>
+        <p id="contact-us">تماس با ما</p>
+      </div>
+      <div class="flex-item1" style="border-color: #3b55ef;background-color: White;">
+        <i class="fa fa-commenting about"></i>
+        <p id="about-us" style="color:#3b55ef;">درباره‌ی ما</p>
+      </div>
+    </div>
+  </div>
+  <div class="item2-about grid-item-about" style="height: 650px; width: 435px; padding-left: 0px ">
+    <div class="flex-container2-about">
+      <div class="flex-item2-about">
+        <div style="font-size: 15px; margin: 0px;">چرا از ما خرید کنید؟</div>
+        <img src="./img/msg.png" id="msg" style="width: 150px; height: 30px; position: absolute; left: 210px; top: 510px;">
+        <canvas id="myCanvas" style="width:300px;height:200px;border:1px solid rgba(127,127,127,1); "></canvas>
+        <script>
+          var c = document.getElementById("myCanvas");
+          var ctx = c.getContext("2d");
+          ctx.beginPath();
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(0, 0);
+          ctx.lineTo(400, 200);
+          ctx.stroke();
+        </script>
+
+        <script>
+          var c = document.getElementById("myCanvas");
+          var ctx = c.getContext("2d");
+          ctx.beginPath();
+          ctx.lineWidth = 0.5;
+          ctx.moveTo(300, 0);
+          ctx.lineTo(0, 150);
+          ctx.stroke();
+        </script>
+      </div>
+      <div class="flex-item2-about bshadow" style="  background-color: #3b55ef; border-radius: 5px; border-color:#3b55ef">
+        <i class="fa fa-envelope-open-o"></i>
+        <p style="position: absolute; font-size: 20px; left: 230px; top: 700px; color:White;">در خبرنامه‌ی ما</p>
+        <p style="position: absolute; font-size: 20px; left: 240px; top: 730px; color:White">!عضو شوید</p>
+        <div class="join">
+          <input onclick="myFunction()" type="text" id="demo" class="email" value="آدرس ایمیل خود را وارد کنید" style="  color:#3b55ef; font-size: 10px">
+          <script>
+            function myFunction() {
+            document.getElementById("demo").value = "rajabiseraji@outlook.com";
+            document.getElementById("demo").style.color ="Gray";
+          }
+          </script>
+          <i class="fa fa-envelope envelope" style="position: absolute;top:30px;left:240px; font-size:15px;color: #3b55ef"></i>
+          <button type="T" class="button joinBtn" style="position: absolute;top:90px;left:85px;font-size: 10px">عضو شوید</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item3-about grid-item-about rightSide" style="height: 650px;width: 765px; padding-right: 0px">
+    <div class="flex-container3-about">
+      <div class="flex-item3-about">
+        <img src="./img/logo1.png" id="logo1" style="width: 200px; height: 130px;position: absolute;right:120px;top:350px;">
+        <div style="font-size: 25px; position: absolute; right: 130px; top: 450px;">درباره‌ی ما</div>
+        <p style="direction:rtl;text-align: right; font-size: 13px;line-height: 19px; position: absolute; right: 130px; top: 495px;">توسعه اینترنت روش‌های خرید ما<br />را به کلی دگرگون کرده است.<br /> منافع موجود در خرید اینترنتی هر<br /> روز، تعداد بیشتری از مردم را به<br /> تجربه آن و ایجاد تغییر در <br />الگوهای متداول خرید ترغیب می<br /> .کند</p>
+        <p style="direction:rtl;text-align: right;font-size: 14px;line-height: 20px; position: absolute; right: 345px; top: 350px;">بعد از تجربه خرید اینترنتی بیشتر با سرعت زندگی مدرن همگام شد و توانست<br /> خود را با روحیات و نیازهای رو به رشد مشتریان هماهنگ کند. در حالیکه<br /> مشغله‌های روزانه فرصت لذت بردن از اوقات فراغت را کاهش داده است،<br /> صرف زمان های طولانی برای انجام سفرهای درون شهری و خرید نیازهای<br /> روزانه معنای خود را از دست می دهد. آنچه در فرصت اوقات فراغت برای افراد<br /> در اولویت قرار می گیرد، تفریح، آموزش، ورزش، لذت بردن از علایق شخصی<br /> و رفع خستگی‌های روزانه است. همه این عوامل افراد را مجاب به استفاده از <br />روش های نوین مانند مراجعه به یک فروشگاه اینترنتی در کمترین زمان برای<br /> انجام فعالیت هایی وقت گیر گذشته می کند، تا قبل از دیجی استایل فرآیند<br /> استقبال مشتریان از دیجی کالا ثابت کرد این روش از زندگی مورد علاقه طیف<br /> عظیمی از افراد است</p>
+
+      </div>
+      <div class="flex-item3-about">
+        <img src="./img/brands.png" id="brands" style="width: 670px; height: 300px; position: absolute; right: 120px; top: 670px;opacity: 0.1;">
+        <button type="T" class="button brandsBtn" style="width: 250px;border-color: #3b55ef; background-color: #3b55ef; color: rgb(255,255,255);  position: absolute; right: 330px; top: 800px; ">تمام برندهای معتبر را با ما تجربه کنید</button>
+      </div>
+    </div>
+  </div>
+  <div class="item4-about grid-item-about" style="height: 250px; background-color:rgba(127,127,127,0.1); ">
+
+    <div class="flex-container5">
+  <div class="flex-item5" style="width: 40%">
+    <p style="font-size: 15px;line-height: 18px;text-shadow: 1px 1px 8px #808080;text-align: right;"><br>تمامی حقوق این سایت متعلق به دانشگاه امیرکبیر بوده و هرگونه استفاده از منابع و طراحی‌های این سایت توسط نهادی خارج از دانشگاه با پیگرد قانونی همراه خواهد بود.</p>
+  </div>
+  <div class="flex-item5" style="width: 30%">
+    <p style="font-size: 18px;line-height: 10px;"><b>به ما در رسانه‌های اجتماعی بپیوندید</b></p>
+    <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-google-plus"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+    <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-google-plus"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+  </div>
+  <div class="flex-item5" style="width: 15%">
+    <div style="direction: rtl; line-height: 18px;text-align: right;">
+      <br>
+      <p ><b>اطلاعات ما</b></p>
+      <p class="onMenu">درباره‌ی ما</p>
+      <p class="onMenu">تماس با ما</p>
+    </div>
+  </div>
+  <div class="flex-item5" style="width: 15%">
+    <div style="direction: rtl; line-height: 18px;text-align: right;">
+      <br>
+      <p ><b>خدمات مشتریان</b></p>
+      <p class="onMenu">سوالات متداول</p>
+      <p class="onMenu">بازگرداندن کالا</p>
+      <p class="onMenu">شرایط استفاده</p>
+      <p class="onMenu">حریم شخصی</p>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+
+</body>	

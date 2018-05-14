@@ -1,0 +1,107 @@
+.fa-facebook {
+  padding: 20px;
+  font-size: 25px;
+  background: #808080;
+  color: white;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover{
+  background-color: #3b55ef
+}
+
+.fa-twitter {
+  padding: 20px;
+  font-size: 25px;
+  background: #808080;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-twitter:hover{
+  background-color: #3b55ef
+}
+
+.fa-google-plus {
+  padding: 20px;
+  font-size: 25px;
+  background: #808080;
+  color: white;
+  width: 25px;
+  padding-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-google-plus:hover{
+  background-color: #3b55ef
+}
+
+.fa-lock{
+  font-size:40px;
+}
+
+.fa-male{
+  font-size:40px;
+}
+
+.fa-angle-left{
+  font-weight: bolder;
+  font-size:50px;
+}
+
+.fa-question{
+  font-size:40px;
+}
+
+.fa-envelope{
+  font-size:38px;
+}
+
+.about{
+  font-size:50px;
+  color:#3b55ef;
+}
+
+.fa-envelope-open-o{
+  font-size:40px;color:White;
+}
+
+.fa-phone{
+  background-color: white;
+  color:black;
+  border-color: black;
+  border: 0.5px solid;
+  border-radius: 50%;
+  width: 70px;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.fa-envelope1{
+  background-color: white;
+  color:gray;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+}

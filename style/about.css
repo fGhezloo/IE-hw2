@@ -1,0 +1,30 @@
+.join{
+  position: absolute;
+  top:810px;
+  left:150px;
+
+}
+
+.email{
+  width: 230px;
+  height: 30px;
+  padding-right: 40px;
+  background-color: White;
+  border-radius: 20px;
+  border-style: none;
+  direction: rtl;
+  outline: none;
+}
+
+
+.envelop{
+  position: absolute;
+  top: 850px;
+  left: 160px;
+  color: #3b55ef;
+}
+
+
+.bshadow{
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}

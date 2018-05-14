@@ -1,0 +1,43 @@
+
+.vl {
+    border-left: 0.1px solid gray;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card {
+  position: absolute;
+  line-height: 20px;
+  top: 1300px;
+  right: 170px;
+  width: 900px;
+  height: 330px;
+  background-color: white;
+  color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+
+.input{
+  width: 200px;
+  height: 30px;
+  padding-right: 10px;
+  background-color: #edf2f8;
+  border-radius: 20px;
+  border-style: none;
+  direction: rtl;
+  outline: none;
+  border: 1px solid #edf2f8;
+}
+
+.input:hover{
+  border: 1px solid #3b55ef;
+  background-color: white;
+
+}
+
+.card-title{
+  text-align: right;
+  line-height: 10px;
+}

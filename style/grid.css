@@ -1,0 +1,79 @@
+.item0-about { grid-area: topp; }
+.item1-about { grid-area: header; }
+.item2-about { grid-area: leftSide; }
+.item3-about { grid-area: rightSide; }
+.item4-about { grid-area: footer; }
+
+.grid-container-about {
+  display: grid;
+  grid-template-areas:
+    'topp topp topp topp topp topp'
+    'header header header header header header'
+    'leftSide leftSide rightSide rightSide rightSide rightSide'
+    'leftSide leftSide rightSide rightSide rightSide rightSide'
+    'footer footer footer footer footer footer'
+    ;
+  grid-gap: 30px 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.grid-item-about {
+ 	background-color: rgb(255, 255, 255);
+ 	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+
+.item0-contact { grid-area: topp; }
+.item1-contact { grid-area: header; }
+.item2-contact { grid-area: middlepart; }
+.item3-contact { grid-area: footer; }
+
+
+.grid-container-contact {
+  display: grid;
+  grid-template-areas:
+    'topp topp topp topp topp topp'
+    'header header header header header header'
+    'middlepart middlepart middlepart middlepart middlepart middlepart'
+    'footer footer footer footer footer footer'
+    ;
+  grid-gap: 30px 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.grid-item-contact {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.item0-return { grid-area: topp; }
+.item1-return { grid-area: header; }
+.item2-return { grid-area: middleTop; }
+.item3-return { grid-area: middleBottom; }
+.item4-return { grid-area: footer; }
+
+
+.grid-container-return {
+  display: grid;
+  grid-template-areas:
+    'topp topp topp topp topp topp'
+    'header header header header header header'
+    'middleTop middleTop middleTop middleTop middleTop middleTop'
+    'middleBottom middleBottom middleBottom middleBottom middleBottom middleBottom'
+    'footer footer footer footer footer footer'
+    ;
+  grid-gap: 30px 0px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.grid-item-return {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
