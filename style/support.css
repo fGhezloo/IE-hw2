@@ -1,0 +1,150 @@
+.supportBtn{
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  height: 70px;
+  width: 300px;
+  font-size:25px;
+  color: white;
+  background-color: #3b55ef;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: none;
+  outline: none;
+}
+
+
+.chatBox{
+  position: fixed;
+  bottom: -70px;
+  right: 10px;
+  height: 500px;
+  width: 300px;
+}
+
+.supportInfo{
+  height: 100px;
+  background-color: #3b55ef;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+.supportimg{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width:60px;
+}
+
+.supportProfesion{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 1px;
+  right: 80px;
+  font-weight: lighter;
+}
+
+.supportName{
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  font-weight: lighter;
+}
+
+.chat{
+  position: relative;
+  height: 300px;
+  bottom: 20px;
+  background-color: #f2f2f2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow-y:auto;
+}
+
+.reply{
+  position: relative;
+  bottom: 20px;
+  height: 45px;
+  background-color: #f2f2f2;
+  border: 2px solid rgba(127,127,127,0.4);
+}
+
+.replybox{
+  position: relative;
+  bottom: -7px;
+  left: 12px;
+  text-align: right;
+  height: 30px;
+  width: 270px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  color: gray;
+  outline: none;
+}
+
+.minimize{
+  position: relative;
+  top: 10px;
+  right: -10px;
+  color: #f2f2f2;
+  font-size: 25px;
+  width: 30px;
+  height: 25px;
+}
+
+.send{
+  position: relative;
+  top: -20px;
+  left: 10px;
+  width: 35px;
+  height: 25px;
+
+}
+
+.answer{
+  position: absolute;
+  top:10px;
+  right: 55px;
+  padding: 10px;
+  margin-bottom: 70px;
+  background-color: white;
+  border:none;
+  border-radius: 5px; 
+}
+
+.simg{
+    position: absolute;
+    top:25px;
+    right: 10px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    width:40px;
+}
+
+.message{
+  position: absolute;
+  top:55px;
+  left: 55px;
+  padding: 10px;
+  margin-bottom: 100px;
+  background-color: white;
+  border:none;
+  border-radius: 5px; 
+}
+.avatar{
+    position: absolute;
+    top:70px;
+    left: 10px;
+    margin-bottom: 100px;
+    border-radius: 50%;
+    width:40px;
+}
+
+
